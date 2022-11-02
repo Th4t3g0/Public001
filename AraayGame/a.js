@@ -55,7 +55,6 @@ ev[1].innerHTML=ev[0].innerHTML;
 ev[0].innerHTML=" ";
 c++;
 cc.innerHTML=c;
-//ref();
 }
 else if(ev[3].innerHTML==" "){
 ev[3].innerHTML=ev[0].innerHTML;
@@ -63,7 +62,7 @@ ev[0].innerHTML=" ";
 c++;
 cc.innerHTML=c;
 }
-  });
+ ref(); });
 //2
 ev[1].addEventListener('click', function() {
 if(ev[0].innerHTML==" "){
@@ -85,7 +84,7 @@ c++;
 cc.innerHTML=c;
 }
 
-  });
+  ref();});
 //3
 ev[2].addEventListener('click', function() {
 if(ev[1].innerHTML==" "){
@@ -100,7 +99,7 @@ ev[2].innerHTML=" ";
 c++;
 cc.innerHTML=c;
 }
-  });
+  ref();});
 //4
 ev[3].addEventListener('click', function() {
 if(ev[0].innerHTML==" "){
@@ -122,7 +121,7 @@ c++;
 cc.innerHTML=c;
 }
 
-  });
+ ref(); });
 //5
 ev[4].addEventListener('click', function() {
 if(ev[1].innerHTML==" "){
@@ -150,7 +149,7 @@ c++;
 cc.innerHTML=c;
 }
 
-  });
+ ref(); });
 //6
 ev[5].addEventListener('click', function() {
 if(ev[2].innerHTML==" "){
@@ -172,7 +171,7 @@ c++;
 cc.innerHTML=c;
 }
 
-  });
+  ref();});
 //7
 ev[6].addEventListener('click', function() {
 if(ev[3].innerHTML==" "){
@@ -187,7 +186,7 @@ ev[6].innerHTML=" ";
 c++;
 cc.innerHTML=c;
 }
-  });
+  ref();});
 
 
 //8
@@ -212,7 +211,7 @@ c++;
 cc.innerHTML=c;
 }
 
-  });
+ ref(); });
 
 
 //9
@@ -229,5 +228,5 @@ ev[8].innerHTML=" ";
 c++;
 cc.innerHTML=c;
 }
-  });
+  ref();});
 //////////Event/////listeners////end/////
